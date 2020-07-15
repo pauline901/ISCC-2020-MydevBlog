@@ -5,9 +5,8 @@
 <title>TOUS SUR LES CHEVAUX !!</title>
 
 <body>
-    <h2>CONTACT</h2>
 
-    <form method="POST" action="http://localhost/ISCC/ISCC-2020-MydevBlog/traitement.php">
+    <form method="POST" action="./traitement.php">
         <p>
             <label>Votre Nom et Prénom : </label>
         

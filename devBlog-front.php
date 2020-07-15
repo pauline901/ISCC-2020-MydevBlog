@@ -8,10 +8,10 @@
     <h1>TOUS SUR LES CHEVAUX !!</h1>
 
     <nav class="content">
-        <a href="http://localhost/ISCC/ISCC-2020-MydevBlog/devBlog-front.php?page=Accueil">Accueil</a>
-        <a href="http://localhost/ISCC/ISCC-2020-MydevBlog/devBlog-front.php?page=Articles">Articles</a>
-        <a href="http://localhost/ISCC/ISCC-2020-MydevBlog/devBlog-front.php?page=Contact">Contact</a>
-        <a href="http://localhost/ISCC/ISCC-2020-MydevBlog/devBlog-front.php?page=Connexion">Connexion</a>
+        <a href="./devBlog-front.php?page=Accueil">Accueil</a>
+        <a href="./devBlog-front.php?page=Articles">Articles</a>
+        <a href="./devBlog-front.php?page=Contact">Contact</a>
+        <a href="./devBlog-front.php?page=Connexion">Connexion</a>
     </nav>
 </header>
 <body>
@@ -81,7 +81,7 @@
     <br/>
     <br/>
     <br/>
-    <a href="http://localhost/ISCC/ISCC-2020-MydevBlog/devBlog-back.php"><p>Page Administrateur</p></a>
+    <a href="./devBlog-back.php"><p>Page Administrateur</p></a>
 
 </footer>
 

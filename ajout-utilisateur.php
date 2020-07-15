@@ -51,10 +51,10 @@ function login ($pdo){
                         $sql="INSERT INTO utilisateurs (loginn, passwordd) VALUES('$login', '$password')";
                         $pdo->exec($sql);
                         echo '<p> Compte ajouté à la base de données avec succés.</p>';
-                        echo '<p><a href="http://localhost/ISCC/ISCC-2020-MydevBlog/devBlog-back.php?page=Utilisateurs">Retour à la liste des membres</a></p>';
+                        echo '<p><a href="./devBlog-back.php?page=Utilisateurs">Retour à la liste des membres</a></p>';
                     } else{
                         echo "<p>Ce compte existe déjà.</p>";
-                        echo '<p><a href="http://localhost/ISCC/ISCC-2020-MydevBlog/devBlog-back.php?page=Utilisateurs">Retour à la liste des membres</a></p>';
+                        echo '<p><a href="./devBlog-back.php?page=Utilisateurs">Retour à la liste des membres</a></p>';
                     }
                 } else{
                     echo "<p>Ce compte n'a pas pu être enregistré dans la base de données. </p>";

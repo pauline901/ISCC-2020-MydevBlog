@@ -8,10 +8,10 @@
     <h1>TOUS SUR LES CHEVAUX !!</h1>
 
     <nav class="content">
-        <a href="http://localhost/ISCC/ISCC-2020-MydevBlog/devBlog-back.php?page=Accueil">Accueil</a>
-        <a href="http://localhost/ISCC/ISCC-2020-MydevBlog/devBlog-back.php?page=Ajout_articles">Ajout-articles</a>
-        <a href="http://localhost/ISCC/ISCC-2020-MydevBlog/devBlog-back.php?page=Ajout_utilisateurs">Ajout-utilisateurs</a>
-        <a href="http://localhost/ISCC/ISCC-2020-MydevBlog/devBlog-back.php?page=Utilisateurs">Utilisateurs</a>
+        <a href="./devBlog-back.php?page=Accueil">Accueil</a>
+        <a href="./devBlog-back.php?page=Ajout_articles">Ajout-articles</a>
+        <a href="./devBlog-back.php?page=Ajout_utilisateurs">Ajout-utilisateurs</a>
+        <a href="./devBlog-back.php?page=Utilisateurs">Utilisateurs</a>
     </nav>
 </header>
 <body>
@@ -76,7 +76,7 @@
 <br/>
 <footer>
 
-<a href="http://localhost/ISCC/ISCC-2020-MydevBlog/devBlog-front.php"><b>Clique ici pour retourner au front-office !</b></a><br/>
+<a href="./devBlog-front.php"><b>Clique ici pour retourner au front-office !</b></a><br/>
 <br/>
 <img src="assetsD13/mustangs-photo-couverture-blog-cheval-aventure.jpg" alt="Chevaux">
 

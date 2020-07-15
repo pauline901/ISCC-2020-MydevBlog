@@ -38,12 +38,12 @@ function login($pdo)
                     echo '<br>';
                     echo 'Vous êtes connectés';
                     echo '<br>';
-                    echo '<p><a href="http://localhost/ISCC/ISCC-2020-MydevBlog/devBlog-back.php">Page administrateur</a></p>';
+                    echo '<p><a href="./devBlog-back.php">Page administrateur</a></p>';
                 }
             }
             else{
                 echo "<p>Mauvais couple identifiant / mot de passe.</p>";
-                echo '<p><a href="http://localhost/ISCC/ISCC-2020-MydevBlog/devBlog-front.php?page=Connexion">Revenir à la page de connexion</a></p>';
+                echo '<p><a href="./devBlog-front.php?page=Connexion">Revenir à la page de connexion</a></p>';
             }
         }
     }
