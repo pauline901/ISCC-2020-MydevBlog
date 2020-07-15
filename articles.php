@@ -2,7 +2,7 @@
 <html>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="style.css">
-<title>TOUS SUR LES CHEVAUX !!</title>
+<title>Articles</title>
 
 <body>
     

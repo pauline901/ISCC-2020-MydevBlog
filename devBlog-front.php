@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pour tous</title>
 </head>
 <header>
     <h1>TOUS SUR LES CHEVAUX !!</h1>
@@ -24,6 +23,11 @@
     {
         echo "<h1>Mon projet !</h1>";
         include("accueil.php");
+        ?>
+        <img src="assetsD13/mustangs-photo-couverture-blog-cheval-aventure.jpg" alt="Chevaux">
+        <?php
+
+
     }
     if($_GET["page"]== "Articles")
     {
@@ -50,16 +54,21 @@
     <h3>Mes autres sites :</h3>
 
     <ul>
-    <li><a href="http://localhost/ISCC/ISCC-2020-J05/EX_02/vitrine-accueil.php">Epitech</a></li>
-    <li><a href="http://localhost/ISCC/ISCC-2020-J05/EX_03/t-shirt.php">T-shirt</a></li>
-    <li><a href="http://localhost/ISCC/ISCC-2020-J07/EX_01/commandes.php">commandes</a></li>
-    <li><a href="http://localhost/ISCC/ISCC-2020-J07/EX_02/double-tableau.php">Doubles tableaux</a></li>
-    <li><a href="http://localhost/ISCC/ISCC-2020-J07/EX_02/produits.php">Tableau simple</a></li>
-    <li><a href="http://localhost/ISCC/ISCC-2020-J07/EX_02/utiliser-objet.php">Timing</a></li>
-    <li><a href="http://localhost/ISCC/ISCC-2020-J08/EX_02/">Summer Code Camp</a></li>
-    <li><a href="http://localhost/ISCC/ISCC-2020-J09/EX_01/mini-site-routing.php">Mini-site routing</a></li>
-    <li><a href="http://localhost/ISCC/ISCC-2020-J03/mon-cv.html">CV</a></li>
-    <li><a href="http://localhost/ISCC/ISCC-2020-J12/EX_01/mini-site-routing.php">Mini-site routing (2)</a></li>
+    <li><a href="./Jour5/EX_02/vitrine-accueil.php">Epitech</a><p>   </p><a href="./Jour5/EX_02/vitrine-contacts.php">Epitech 2</a><p>   </p><a href="./Jour5/EX_02/vitrine-programme.php">Epitech 3</a></li>
+    <br/>
+    <li><a href="./Jour5/EX_03/t-shirt.php">T-shirt</a></li>
+    <br/>
+    <li><a href="./Jour7/EX_01/commandes.php">commandes</a></li>
+    <br/>
+    <li><a href="./Jour7/EX_02/double-tableau.php">Doubles tableaux</a></li>
+    <br/>
+    <li><a href="./Jour7/EX_02/produits.php">Tableau simple</a></li>
+    <br/>
+    <li><a href="./Jour7/EX_02/utiliser-objet.php">Timing</a></li>
+    <br/>
+    <li><a href="./Jour8/EX_02/">Summer Code Camp</a></li>
+    <br/>
+    <li><a href="./Jour12/EX_01/mini-site-routing.php">Mini-site routing</a></li>
     </ul>
 
     <h3>Mes réseaux</h3>
@@ -69,6 +78,10 @@
     <a href="https://www.linkedin.com/in/pauline-baur-473578198/"><img src="assetsD13/kisspng-linkedin-computer-icons-logo-professional-networks-5b0d65b29ec943.2054111815276046586504.jpg" width="50" height="50" alt="Linkedin" ></a>
     <a href="https://twitter.com/paulinebaur"><img src="logo-twitter-circle-png-transparent-image-1.png" width="50" height="50" alt="Twitter"></a>
     <a href="https://github.com/pauline901"><img src="github_PNG20.png" width="50" height="50" alt="Github"></a>
+    <br/>
+    <br/>
+    <br/>
+    <a href="http://localhost/ISCC/ISCC-2020-MydevBlog/devBlog-back.php"><p>Page Administrateur</p></a>
 
 </footer>
 
