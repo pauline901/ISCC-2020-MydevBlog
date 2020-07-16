@@ -36,7 +36,7 @@ function articles($pdo){
         $number_article=$article['numéro'];
     ?>
 
-    <a href="./devBlog-front.php?page=article&numéro=<?php echo $number_article?>">Lire l'article en entier.</a>
+    <a href="./devBlog-front.php?page=Article&numéro=<?php echo $number_article?>">Lire l'article en entier.</a>
     <?php
     }
 }

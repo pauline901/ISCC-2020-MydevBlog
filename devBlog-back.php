@@ -34,7 +34,6 @@
         <form enctype="multipart/form-data" action="ajout-articles.php" method="POST">
                 <p>Nom de l'article : <input type="text" name="nom" placeholder="Ex : Les différentes robes des chevaux."/></p><br/>
                 <p>Date de publication : <input type="datetime-local" name="date" placeholder="Ex : 15/07/2020"/></p><br/>
-                <p>Image : <input type="file" name="image"/></p><br/>
                 <p>Auteur : <input type="text" name="auteur" placeholder="Ex : Jean Meyer"/></p><br/>
                 <textarea id="contenu" name="contenu" rows="30" cols="100">Contenu de l'article</textarea><br/>
                 <textarea id="extrait" name="extrait" rows="20" cols="100">Extrait de l'article</textarea><br/>

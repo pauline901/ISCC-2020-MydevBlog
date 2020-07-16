@@ -43,7 +43,7 @@ function login ($pdo){
             $extrait=addslashes($extrait);
 
             $sql="INSERT INTO
-            article (nom, date, auteur, contenu, extrait)
+            article (nom, datee, auteur, contenu, extrait)
             VALUES('$nom', '$date', '$auteur', '$contenu', '$extrait')";
             $pdo->exec($sql);
             echo '<p>Article ajouté à la base de données avec succès! </p>';

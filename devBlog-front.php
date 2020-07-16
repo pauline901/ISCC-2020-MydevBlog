@@ -47,6 +47,10 @@
         echo "<h2>Connexion</h2>";
         include("connexion.php");
     }
+    if($_GET["page"]== "Article")
+    {
+        include("article.php");
+    }
     }
 
     ?>
