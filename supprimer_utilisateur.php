@@ -27,6 +27,7 @@ function supprimer_utilisateur($pdo)
     $sth=$pdo->prepare($sql);
     $sth->execute();
     echo '<p>Suppression exécuté</p>';
+    echo '<p><a href="./devBlog-back.php?page=Utilisateurs">Revenir à la liste des membres.</a></p>';
 }
 
 $pdo=connect_to_database();

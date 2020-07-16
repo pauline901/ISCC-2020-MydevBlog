@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./front.css">
     <title>Pour tous</title>
 </head>
 <header>
@@ -21,27 +22,29 @@
     {
     if($_GET["page"]== "Accueil")
     {
-        echo "<h1>Mon projet !</h1>";
+        echo "<h2>Mon projet !</h2>";
         include("accueil.php");
         ?>
+        <br/>
         <img src="assetsD13/mustangs-photo-couverture-blog-cheval-aventure.jpg" alt="Chevaux">
+        <br/>
         <?php
 
 
     }
     if($_GET["page"]== "Articles")
     {
-        echo "<h1>Tout mes articles !</h1>";
+        echo "<h2>Tout mes articles !</h2>";
         include("articles.php");
     }
     if($_GET["page"]== "Contact")
     {
-        echo "<h1>Contactez moi !</h1>";
+        echo "<h2>Contactez moi !</h2>";
         include("contact.php");
     }
     if($_GET["page"]== "Connexion")
     {
-        echo "<h1>Connexion</h1>";
+        echo "<h2>Connexion</h2>";
         include("connexion.php");
     }
     }

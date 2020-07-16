@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./back.css">
     <title>Administrateurs</title>
 </head>
 <header>
@@ -31,7 +32,6 @@
 ?>
 
         <form enctype="multipart/form-data" action="ajout-articles.php" method="POST">
-                <p>Numéro : <input type="text" name="numéro" placeholder="Ex : 50"/></p><br/>
                 <p>Nom de l'article : <input type="text" name="nom" placeholder="Ex : Les différentes robes des chevaux."/></p><br/>
                 <p>Date de publication : <input type="datetime-local" name="date" placeholder="Ex : 15/07/2020"/></p><br/>
                 <p>Image : <input type="file" name="image"/></p><br/>

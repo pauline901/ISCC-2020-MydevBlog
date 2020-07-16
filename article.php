@@ -3,9 +3,8 @@
 <head>
 <title>Tout sur les chevaux</title>
 <meta charset="utf-8">
-</head>
-
 <?php
+
 session_start();
 
 function connect_to_database(){
@@ -24,24 +23,20 @@ function connect_to_database(){
         echo "Erreur : " . $e->getMessage();
     }
 } ?>
-<ul>
-<?php
-function articles($pdo){
-    $articles=$pdo->query("SELECT * FROM article")->fetchAll();
 
-    foreach ($articles as $article){
-        echo '<h4><li>'.$article['nom'].'</li></h4>';
-        echo '<p>'.$article['extrait'].'</p>';
+<?php 
+function afficher_article_entier($pdo){
+    $number_article=$_GET['numéro'];
 
-        $number_article=$article['numéro'];
-    ?>
 
-    <a href="./devBlog-front.php?page=article&numéro=<?php echo $number_article?>">Lire l'article en entier.</a>
-    <?php
-    }
+    $articles=$pdo->query("SELECT * FROM article
+    WHERE numéro='$number_article'")->fetchAll();
+
+    echo '<h1>'.$articles[0]['nom'].'</h1>';
+    echo '<p>'.$articles[0]['contenu'].'</p>';
 }
 $pdo=connect_to_database();
-articles($pdo);
+afficher_article_entier($pdo);
 ?>
-</ul>
+
 </html>
